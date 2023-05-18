@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>Details</title>
+<link href="asset/css/Cake_Details.css" rel="stylesheet">
+<script>
+function button1function()
+{
+alert("Your Order Has Been Processed!!");
+}
+function button2function()
+{
+alert("Your Order Has Been Processed!!");
+}
+</script>
+
+</head>
+<body>
+<div class="details">
+<form method="get" action="Done.html" target="_blank" enctype="multipart/form-data">
+<fieldset>
+<legend align="center" >Customer details</legend>
+<table>
+<tr>
+<td><label for="one">Name:</label></td>
+<td><input type="text" name="uname" id="one" placeholder="enter your name" required /></td>
+</tr>
+<tr>
+<td><label for="two">Person's DOB:</label></td>
+<td><input type="date" name="dob" id="two" required /></td>
+</tr>
+<tr>
+<td><label for="three">Enter Address:</label></td>
+<!-- <textarea name="cadd" id="three"></textarea> -->
+<td><textarea type="date" name="dob" id="three" required ></textarea></td>
+</tr>
+<tr>
+<td><label for="four">E-Mail:</label></td>
+<td><input type="email" name="email" placeholder="enter your id" id="four" required /></td>
+</tr>
+<tr>
+<td>Contact Number:</td>
+<td><input type="text" name="cn" maxlength="10" minlength="10" placeholder="Contact No." required /></td>
+</tr>
+<tr>
+<td><label for="five">Type Name with your Message:</label></td>
+<td><input id="five" type="text" name="msg" placeholder="Your Msg with person name" required /></td>
+</tr>
+<tr>
+<td>Upload Design file:</td>
+<td><input type="file" name="uf"/></td>
+</tr>
+<tr>
+<td>Select Category:</td>
+<td><select name="X">
+<option value="1">Cake</option>
+<option value="2">Pestry</option>
+<option value="3">Bread</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Select Weight:</td>
+<td><select name="X">
+<option value="1">1kg-500rs.</option>
+<option value="2">2kg-800rs.</option>
+<option value="3">3kg-1000rs.</option>
+<option value="4">4kg-1500rs.</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td>Select Falvour:</td>
+<td><select name="y">
+<option value="1">Strawberry</option>
+<option value="2">Raspberry</option>
+<option value="3">Chocolate</option>
+<option value="4">Mango</option>
+</select>
+</td>
+</tr>
+<tr>
+<td>
+<button type="button" onclick="button1function()"><a style="text-decoration:none" href="Cake_Website.html">Cash On Delivery</a></button>
+<button type="button" onclick="button2function()"><a style="text-decoration:none" href="Cake_Payment.html">Online Payment </a></button>
+<!-- <input type="submit" name="send" value="Submit"/> -->
+</td>
+</tr>
+</table>
+</fieldset>
+</form>
+</div>
+</body>
+</html>

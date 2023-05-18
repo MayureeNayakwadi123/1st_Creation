@@ -1,0 +1,31 @@
+.Online_Payment{
+	height:500px;
+	width:500px;
+	margin:auto;
+	border-style:solid;
+	box-shadow:20px 20px 20px 20px;	
+
+}
+
+.center {
+	width: 50%;
+	margin:auto;
+	padding-left:80px;
+}
+
+h1,h2
+{
+		padding-left:50px;
+		padding-bottom:5px;
+	
+}
+
+button{
+	height:30px;
+	width:80px;
+	background-color:red;
+}
+
+a{
+	text-decoration:none;
+}
